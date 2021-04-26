@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>c    o    o    l    t</title>
+    <script>
+        window.onload = function(){
+          var originalTitle = document.title;
+          var animatedTitles = ['👺', '🙏', '🍁', '😈' ,'🧢'];
+          var animatedTitles1 = ['🙏', '🍁', '👺', '👺', '❌'];
+          var index = 0;
+  document.title = animatedTitles[index] + ' ' + originalTitle + ' ' + animatedTitles1[index];
+          index++;
+  setInterval(
+            function(){
+              document.title = animatedTitles[index] + ' ' + originalTitle + ' ' + animatedTitles1[index];
+              index++;
+              if(index == animatedTitles.length){
+                index = 0;
+              }
+            },
+            500
+          );
+        }
+      </script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/index.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn.betterttv.net/emote/5d8d17d9d2458468c1f4978f/2x">
+</head>
+<body>
+    <div id="loader" class="loader"></div>
+    <header>
+        <h1 class="glitch" data-text="c x x l t">c x x l t</h1>
+        <img src="https://cdn.betterttv.net/emote/5cb11e278520fb586c11b392/2x" alt="">
+    </header>
+    <main>
+    <div id="myDiv">
+        <a target=”_blank” href="https://www.twitch.tv/4coolt"><button>twitch</button></a>
+        <a target=”_blank” href="https://twitter.com/raffp_"><button>twitter</button></a>
+        <a target=”_blank” href="https://discord.gg/8VuC4EKRMM"><button>discord</button></a>
+    </div>
+    </main>
