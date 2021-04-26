@@ -204,5 +204,15 @@ img {
 }
 
 h2 {
+  font-size: 16px;
+  width: 13em;
+  height: 2em;
+  justify-content: center;
+  margin-top: 45em;
+  position: absolute;
+}
+
+
+h2 {
   animation: 1s ease-out 0s 1 posh2;
 }
