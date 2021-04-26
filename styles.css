@@ -12,7 +12,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("https://raw.githubusercontent.com/cxxlt/links/main/wallhaven-96l288.png");
+    background-image: url("wallhaven-96l288.png");
     box-shadow: inset 0px 1px 30px rgba(0, 0, 0, 0.514);
 }
 
@@ -112,7 +112,7 @@ h1:hover {
 main {
     width: 100%;
     min-height: 80vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.76)), url(https://raw.githubusercontent.com/cxxlt/links/main/wallhaven-136z51.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.76)), url(wallhaven-136z51.png);
     display: flex;
     justify-content: center;
 
