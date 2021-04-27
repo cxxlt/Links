@@ -120,8 +120,7 @@ h1:hover {
   
 main {
     width: 100%;
-    min-height: 80vh;
-    max-height: 85vh;
+    min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.76)), url("https://raw.githubusercontent.com/cxxlt/links/main/wallhaven-136z51.png");
     display: flex;
     justify-content: center;
