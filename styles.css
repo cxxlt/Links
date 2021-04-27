@@ -209,7 +209,7 @@ h2 {
 
 @keyframes posh2 {
   0% {
-    transform: translate(0px, 24px);
+    transform: translate(0px, 40px);
   }
   100% {
     transform: translate(0px, 0px);
